@@ -34,19 +34,21 @@ In the world of cryptocurrencies, accessing detailed transaction information is 
 
 ## Usage
 1. Start Server
-```sh
-node server.js
+   ```sh
+   node server.js
 2. The server will run at http://localhost:3000. Visit http://localhost:3000/api-docs to access the Swagger UI for interactive API documentation.
 3. You can test the /getCryptoDetails endpoint by sending a POST request with the following JSON body:
- {
-  "crypto": "ethereum",
-  "address": "your_ethereum_address"
-}
+   ```json
+    {
+     "crypto": "ethereum",
+     "address": "your_ethereum_address"
+   }
 
 ## API Documentation
 Access the Swagger UI for detailed API documentation and testing at http://localhost:3000/api-docs.
 
 ## Project Structure
+```plaintext
 crypto-transaction-api-nodejs/
 │
 ├── server.js               # Main server file
@@ -61,11 +63,7 @@ crypto-transaction-api-nodejs/
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 
 
 
