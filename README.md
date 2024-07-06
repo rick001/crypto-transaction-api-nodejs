@@ -48,20 +48,27 @@ In the world of cryptocurrencies, accessing detailed transaction information is 
 Access the Swagger UI for detailed API documentation and testing at http://localhost:3000/api-docs.
 
 ## Project Structure
-```plaintext
-crypto-transaction-api-nodejs/
-│
-├── server.js               # Main server file
-├── bitcoinDetails.js       # Bitcoin transaction details logic
-├── dogecoinDetails.js      # Dogecoin transaction details logic
-├── ethereumDetails.js      # Ethereum transaction details logic
-├── solanaDetails.js        # Solana transaction details logic
-├── xrpDetails.js           # XRP transaction details logic
-├── package.json            # Project metadata and dependencies
-├── .env                    # Environment variables
-└── README.md               # Project documentation
+   ```plaintext
+   crypto-transaction-api-nodejs/
+   │
+   ├── server.js               # Main server file
+   ├── bitcoinDetails.js       # Bitcoin transaction details logic
+   ├── dogecoinDetails.js      # Dogecoin transaction details logic
+   ├── ethereumDetails.js      # Ethereum transaction details logic
+   ├── solanaDetails.js        # Solana transaction details logic
+   ├── xrpDetails.js           # XRP transaction details logic
+   ├── package.json            # Project metadata and dependencies
+   ├── .env                    # Environment variables
+   └── README.md               # Project documentation
+```
 
 ## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+
+
 
 
 
